@@ -1,0 +1,65 @@
+{
+  "vocab_size": 10000,
+  "weights": {
+    "en": 1,
+    "hi": 2,
+    "te": 4,
+    "sa": 7
+  },
+  "langs": [
+    {
+      "code": "en",
+      "name": "English",
+      "chars": 233413,
+      "words_ws": 29566,
+      "units_faithful": 58482,
+      "tokens": 68640,
+      "X_ws": 2.3215856050869244,
+      "X_faithful": 1.173694470093362,
+      "unk": 0,
+      "roundtrip": true
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "chars": 89600,
+      "words_ws": 12966,
+      "units_faithful": 22878,
+      "tokens": 24503,
+      "X_ws": 1.8897886780811353,
+      "X_faithful": 1.0710289360958125,
+      "unk": 0,
+      "roundtrip": true
+    },
+    {
+      "code": "te",
+      "name": "Telugu",
+      "chars": 34802,
+      "words_ws": 4084,
+      "units_faithful": 7102,
+      "tokens": 8415,
+      "X_ws": 2.0604799216454457,
+      "X_faithful": 1.184877499295973,
+      "unk": 0,
+      "roundtrip": true
+    },
+    {
+      "code": "sa",
+      "name": "Sanskrit",
+      "chars": 18616,
+      "words_ws": 2224,
+      "units_faithful": 3156,
+      "tokens": 3618,
+      "X_ws": 1.6267985611510791,
+      "X_faithful": 1.1463878326996197,
+      "unk": 0,
+      "roundtrip": true
+    }
+  ],
+  "spread_faithful": 0.11384856320016046,
+  "score_faithful": 8783.597894352615,
+  "gate_faithful": true,
+  "spread_wordcount": 0.6947870439358452,
+  "score_wordcount": 1439.2899359999253,
+  "gate_wordcount": false
+}
